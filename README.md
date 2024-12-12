@@ -1,5 +1,5 @@
 # Joga da velha com IA
-O programa implementa um jogo da velha que tem como adversário uma IA e a ideia principal é que o jogador não consiga vencer essa Ia.
+O programa implementa um jogo da velha que tem como adversário uma IA e a ideia principal é que o jogador não consiga vencer essa IA.
 
 ## 📂 Organização
 -  **include:** Contém os arquivos de cabeçalho (.h) com as declarações de funções.
@@ -8,14 +8,28 @@ O programa implementa um jogo da velha que tem como adversário uma IA e a ideia
 -  **Makefile:** Arquivo de configuração para a compilação.
 ---
 
-## Lógica da Inteligência Artificial
-A lógica por trás do comportamente da IA segue 6 regras simples que devem ser seguidas nessa ordem:
-1. Se você ou seu oponente tiver duas marcações em sequência, marque o quadrado restante.
-2. Se houver uma jogada que crie duas sequências de duas marcações, use-a.
-3. Se o quadrado central estiver livre, marque-o.
-4. Se seu oponente tiver marcado um dos cantos, marque o canto oposto.
-5. Se houver um canto vazio, marque-o.
-6. Marque arbitrariamente um quadrado vazio.
+## 🧠 Lógica da Inteligência Artificial
+1. **Bloqueio ou Vitória imediata**:  
+   - Se você ou a IA tiver duas marcações em sequência, a IA preenche o terceiro quadrado.  
+   - Exemplo:  
+     ```
+     X | X |  
+     ---------
+       | O |  
+     ---------
+       |   |  
+     Resposta da IA: 0 2
+     ```  
+2. **Criação de vantagens**:  
+   - A IA prioriza jogadas que criem duas sequências de vitória possíveis.  
+3. **Controle do centro**:  
+   - A IA joga no quadrado central, se disponível.  
+4. **Marcação oposta**:  
+   - Se o jogador marcar um canto, a IA marca o canto oposto.  
+5. **Uso de cantos vazios**:  
+   - A IA preenche um canto livre antes de outras áreas.  
+6. **Marcação arbitrária**:  
+   - Em último caso, a IA marca qualquer quadrado vazio.
 
 Com isso, se espera que a IA se torne invencível contra o jogador.
 
