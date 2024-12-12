@@ -11,15 +11,6 @@ O programa implementa um jogo da velha que tem como adversário uma IA e a ideia
 ## 🧠 Lógica da Inteligência Artificial
 1. **Bloqueio ou Vitória imediata**:  
    - Se você ou a IA tiver duas marcações em sequência, a IA preenche o terceiro quadrado.  
-   - Exemplo:  
-     ```
-     X | X |  
-     ---------
-       | O |  
-     ---------
-       |   |  
-     Resposta da IA: 0 2
-     ```  
 2. **Criação de vantagens**:  
    - A IA prioriza jogadas que criem duas sequências de vitória possíveis.  
 3. **Controle do centro**:  
@@ -31,7 +22,6 @@ O programa implementa um jogo da velha que tem como adversário uma IA e a ideia
 6. **Marcação arbitrária**:  
    - Em último caso, a IA marca qualquer quadrado vazio.
 
-Com isso, se espera que a IA se torne invencível contra o jogador.
 
 ## 🖥️ Compilação e Execução
 
