@@ -6,7 +6,7 @@
 -  **bin:** Contém o arquivo executável.
 -  **Makefile:** Arquivo de configuração para a compilação.
 
-## Compilação e Execução
+## 🖥️ Compilação e Execução
 
 ### Compilar
 ```
