@@ -21,7 +21,7 @@ make
 
 ## 🎮 Como Jogar
 
-1. Quando o jogo começar, o tabuleiro será exibido com coordenadas para as linhas e colunas:
+Quando o jogo começar, o tabuleiro será exibido com coordenadas para as linhas e colunas:
 
 ```
 colunas     0   1   2       linhas
@@ -32,14 +32,14 @@ colunas     0   1   2       linhas
          ------------
              |   |           2
 ```
-2. O jogador deve digitar a linha e a coluna onde deseja jogar. Exemplo:
+O jogador deve digitar a linha e a coluna onde deseja jogar. Exemplo:
 
 ```
 digite a linha e coluna que voce quer jogar(nessa ordem): 1 1
 ```
-3. O tabuleiro será atualizado automaticamente após cada jogada.
+O tabuleiro será atualizado automaticamente após cada jogada.
 
-4. O jogo termina quando:
+O jogo termina quando:
 - Um dos jogadores vencer.
 - Todas as posições forem preenchidas (empate).
 
