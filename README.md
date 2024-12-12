@@ -8,17 +8,14 @@ O programa implementa um jogo da velha que tem como adversário uma IA e a ideia
 -  **Makefile:** Arquivo de configuração para a compilação.
 ---
 
-## Lógica por trás da Ia
+## Lógica da Inteligência Artificial
 A lógica por trás do comportamente da IA segue 6 regras simples que devem ser seguidas nessa ordem:
-
-- Se você ou seu oponente tiver duas marcações em sequência, marque o 
-quadrado restante.
-- Se houver uma jogada que crie duas sequências de duas marcações, 
-use-a.
-- Se o quadrado central estiver livre, marque-o. 
-- Se seu oponente tiver marcado um dos cantos, marque o canto oposto.
-- Se houver um canto vazio, marque-o.
-- Marque arbitrariamente um quadrado vazio.
+1. Se você ou seu oponente tiver duas marcações em sequência, marque o quadrado restante.
+2. Se houver uma jogada que crie duas sequências de duas marcações, use-a.
+3. Se o quadrado central estiver livre, marque-o.
+4. Se seu oponente tiver marcado um dos cantos, marque o canto oposto.
+5. Se houver um canto vazio, marque-o.
+6. Marque arbitrariamente um quadrado vazio.
 
 Com isso, se espera que a IA se torne invencível contra o jogador.
 
