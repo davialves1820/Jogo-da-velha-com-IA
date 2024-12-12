@@ -1,9 +1,10 @@
-# Joga da velha
+# Joga da velha com IA
 
 ## Organização
-- Pasta src: Contém os arquivos de implementação
-- Pasta include: Contém os arquivos de cabeçalho
-- Pasta bin: Contém o arquivo executável
+-  **include:** Contém os arquivos de cabeçalho (.h) com as declarações de funções.
+-  **src:** Contém os arquivos fonte (.c) com a implementação das funções.
+-  **bin:** Contém o arquivo executável.
+-  **Makefile:** Arquivo de configuração para a compilação.
 
 ## Compilação e Execução
 
