@@ -1,3 +1,3 @@
-## Joga da velha
+# Joga da velha
 
-# Organização
+## Organização
