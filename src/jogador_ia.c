@@ -117,16 +117,21 @@ int verificar_centro(char jogo[][3]) {
 int verificar_marcacao_canto_oposto(char jogo[][3]) {
 
     // caso o jogador marcar um canto, marca-se o oposto
-    for (int i = 0; i < 3; i += 2) {
-        if (jogo[i][i] == 'X' && jogo[2-i][2-i] == ' ') {
-            jogo[2-i][2-i] = 'O';
-            return 1;
-        } else if (jogo[i][2-i] == 'X' && jogo[2-i][i] == ' ') {
-            jogo[i][i] = 'O';
-            return 1;
-        }
-    }
 
+    if (jogo[0][0] == 'X' && jogo[2][2] == ' ') {
+        jogo[2][2] = 'O';
+        return 1;
+    } else if (jogo[2][2] == 'X' && jogo[0][0] == ' ') {
+        jogo[0][0] = 'O';
+        return 1;
+    } else if (jogo[0][2] == 'X' && jogo[2][0] == ' ') {
+        jogo[2][0] = 'O';
+        return 1;
+    } else if (jogo[2][0] == 'X' && jogo[0][2] == ' ') {
+        jogo[0][2] = 'O';
+        return 1;
+    }
+    
     return 0;
 }
 
