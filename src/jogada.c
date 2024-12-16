@@ -19,7 +19,7 @@ void jogada(char jogo[][3],char c) {
     scanf("%d %d",&i, &j);
 
     while (jogada_valida(i,j,jogo) == 1) { // looping so acaba quando a jogada for valida
-        printf("COORDENADA INVALIDA! tente novamente ;-;\n");
+        printf("COORDENADA INVALIDA! tente novamente\n");
         scanf("%d %d",&i, &j);
     }
     jogo[i][j] = c; // preenche o campo com a letra do jogador
