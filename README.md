@@ -2,7 +2,7 @@
 O programa implementa um jogo da velha que tem como adversário uma IA e a ideia principal é que o jogador não consiga vencer essa IA.
 
 ## 📂 Organização
--  **include:** Contém os arquivos de cabeçalho (.h) com as declarações de funções.
+-  **include:** Contém os arquivos de cabeçalho (.h) com as declarações das funções.
 -  **src:** Contém os arquivos fonte (.c) com a implementação das funções.
 -  **bin:** Contém o arquivo executável.
 -  **Makefile:** Arquivo de configuração para a compilação.
